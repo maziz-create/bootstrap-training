@@ -1,6 +1,23 @@
 body {
     background-color: #E9ECEF;
 }
-.homepage ul {
+
+/* homepage */
+
+#homepage ul {
     list-style-position: inside;
+}
+
+/* products  */
+
+#products {
+    display: none;
+}
+
+.card {
+    width: 300px;
+}
+
+.card-title {
+    color: purple;
 }
