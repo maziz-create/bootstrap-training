@@ -1,0 +1,34 @@
+.container-fluid {
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+/* navbar  */
+
+nav {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+nav .navbar-brand {
+    font-family: 'Pinyon Script', cursive;
+    font-weight: bold;
+}
+
+nav a:not(:first-child) {
+    margin-left: 5px;
+}
+
+nav img {
+    margin-top: 3px;
+    height: 19px;
+}
+
+nav input {
+    margin-left: 300px;
+    font-size: 15px;
+}
+
+nav input:placeholder-shown {
+    text-align: center;
+}
