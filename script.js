@@ -1,12 +1,19 @@
 // navbarlink selection 
 
-const goToHomepage = document.querySelector('.goToHomepage');
+const goToHomepageFromTitle = document.querySelector('.goToHomepageFromTitle');
+const goToHomepageFromNavbar = document.querySelector('.goToHomepageFromNavbar');
 const goToProducts = document.querySelector('.goToProducts');
 const goToAboutUs = document.querySelector('.goToAboutUs');
 
 // click actions for navbarlinks
 
-goToHomepage.addEventListener('click', function() {
+goToHomepageFromTitle.addEventListener('click', function() {
+    document.getElementById('homepage').style.display = "block";
+    document.getElementById('products').style.display = "none";
+    document.getElementById('aboutus').style.display = "none";
+})
+
+goToHomepageFromNavbar.addEventListener('click', function() {
     document.getElementById('homepage').style.display = "block";
     document.getElementById('products').style.display = "none";
     document.getElementById('aboutus').style.display = "none";
