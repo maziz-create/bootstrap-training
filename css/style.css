@@ -18,6 +18,12 @@ body {
     width: 300px;
 }
 
-.card-title {
+.card-title, .aboutus-text {
     color: purple;
+}
+
+/* aboutus  */
+
+#aboutus {
+    display: none;
 }
