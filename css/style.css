@@ -16,9 +16,10 @@ body {
 
 .card {
     width: 300px;
+    margin-bottom: 35px;
 }
 
-.card-title, .aboutus-text {
+.card-title, .products-title, .aboutus-title {
     color: purple;
 }
 
