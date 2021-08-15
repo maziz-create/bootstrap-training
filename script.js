@@ -2,8 +2,11 @@
 
 const goToHomepageFromTitle = document.querySelector('.goToHomepageFromTitle');
 const goToHomepageFromNavbar = document.querySelector('.goToHomepageFromNavbar');
+
 const goToProducts = document.querySelector('.goToProducts');
-const goToAboutUs = document.querySelector('.goToAboutUs');
+
+const goToAboutUsFromNavbar = document.querySelector('.goToAboutUsFromNavbar');
+const goToAboutUsFromButton = document.querySelector('.goToAboutUsFromButton');
 
 // click actions for navbarlinks
 
@@ -25,7 +28,15 @@ goToProducts.addEventListener('click', function() {
     document.getElementById('aboutus').style.display = "none";
 })
 
-goToAboutUs.addEventListener('click', function() {
+goToAboutUsFromNavbar.addEventListener('click', function() {
+    document.getElementById('homepage').style.display = "none";
+    document.getElementById('products').style.display = "none";
+    document.getElementById('aboutus').style.display = "block";
+})
+
+// click action for button in homepage
+
+goToAboutUsFromButton.addEventListener('click', function() {
     document.getElementById('homepage').style.display = "none";
     document.getElementById('products').style.display = "none";
     document.getElementById('aboutus').style.display = "block";
