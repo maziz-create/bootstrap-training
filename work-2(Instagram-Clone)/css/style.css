@@ -1,3 +1,7 @@
+body {
+    background-color: #f3f3f3;
+}
+
 .container-fluid {
     padding-left: 180px;
     padding-right: 180px;
@@ -37,6 +41,7 @@ nav input:placeholder-shown {
 
 .stories {
     margin-left: 130px;
+    background-color: #fff;
 }
 
 .story {
