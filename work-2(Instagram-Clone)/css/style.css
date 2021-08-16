@@ -63,3 +63,22 @@ nav input:placeholder-shown {
     font-size: 10px;
     font-weight: 500;
 }
+
+.icons i {
+    font-size: 20px;
+}
+
+/* aside  */
+
+.aside-profil-img {
+    height: 60px;
+}
+
+aside .card {
+    border: none;
+}
+
+.copyright {
+    opacity: .3;
+    font-size: 13px;
+}
