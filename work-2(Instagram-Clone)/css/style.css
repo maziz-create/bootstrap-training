@@ -70,6 +70,12 @@ nav input:placeholder-shown {
 
 /* aside  */
 
+aside {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
 .aside-profil-img {
     height: 60px;
 }
