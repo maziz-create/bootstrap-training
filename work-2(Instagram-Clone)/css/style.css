@@ -32,3 +32,17 @@ nav input {
 nav input:placeholder-shown {
     text-align: center;
 }
+
+/* stories  */
+
+.stories {
+    margin-left: 130px;
+}
+
+.story {
+    padding: 0;
+}
+
+.story-text {
+    font-size: 15px;
+}
