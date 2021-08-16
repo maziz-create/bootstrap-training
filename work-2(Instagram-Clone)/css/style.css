@@ -51,3 +51,15 @@ nav input:placeholder-shown {
 .story-text {
     font-size: 15px;
 }
+
+/* posts  */
+
+.post {
+    margin-left: 130px;
+    background-color: #fff;
+}
+
+.text-time {
+    font-size: 10px;
+    font-weight: 500;
+}
